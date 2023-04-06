@@ -1,1 +1,38 @@
 /* You can add global styles to this file, and also import other style files */
+// @import 'variables';
+
+// Importa Bootstrap
+@import '../node_modules/bootstrap/scss/bootstrap.scss';
+
+a {
+  text-decoration: none;
+  // color: $gray-400;
+  color: $gray-400;
+  margin: none;
+}
+
+.gruvbox-text-dark {
+  color:#1D2021;
+}
+.gruvbox-text-green{
+  color: #B6B825;
+}
+
+.gruvbox-text-white{
+  color: #FBF1C7;
+}
+
+.gruvbox-bg-gray{
+  background-color: #5B5449;
+}
+
+.gruvbox-bg-white{
+  background-color: #FBF1C7;
+}
+
+body{
+  background-color: $gray-100;
+}
+
+
+
